@@ -1,5 +1,5 @@
 # Tucil Stima 2 by Nelsen Putra
-> Bézier curve builder written in Python. Based on the concept of Divide and Conquer Midpoint algorithm.
+> Bézier curve generator written in Python. Based on the concept of Divide and Conquer Midpoint algorithm.
 
 
 ## Table of Contents
@@ -38,8 +38,8 @@ The whole program was written in Python.
 - [x] Form a Bézier curve with an optimal output
 - [x] Show the execution time of forming the Bézier curve
 - [x] Visualize the Bézier curve
-- [] **(Bonus)** Form a Bézier curve with n control points
-- [] **(Bonus)** Visualize the process of forming the Bézier curve
+- [x] **(Bonus)** Form a Bézier curve with n control points
+- [ ] **(Bonus)** Visualize the process of forming the Bézier curve
 
 
 ## Setup
@@ -60,12 +60,18 @@ The whole program was written in Python.
 3. Run `python3 main.py` on the command line or use the code runner extension
 
 ### Requirement
-An input should consist these two components:
-- Three pairs of dots, where the earliest point entered will be the starting point of the curve, as well as the latest one
-- The number of the iteration
+An input should consist these two components consecutively:
+- The number of points
+- N pairs of points, where the earliest point entered will be the starting point of the curve, as well as the latest one
 
-A `.txt` file used as an input should follow the pattern: (if any)
-
+A `.txt` file used as an input should follow the pattern:
+```
+Number of points
+Point_1 (format: x y)
+Point_2
+...
+Point_N
+```
 
 ## Project Status
 Project is: _complete_
