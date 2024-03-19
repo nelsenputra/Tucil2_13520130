@@ -1,5 +1,5 @@
 # Tucil Stima 2 by Nelsen Putra
-> Bézier curve generator written in Python. Based on the concept of Divide and Conquer Midpoint algorithm.
+> Bézier curve generator written in Python. Based on the concept of Divide and Conquer midPoint algorithm.
 
 
 ## Table of Contents
@@ -27,7 +27,7 @@ This project was created by:
 ## General Information
 Bézier curves are smooth curves that are often used in graphic design, animation, and manufacturing. This curve is created by connecting several control points, which determine the shape and direction of the curve. The way to make it is quite easy, namely by determine control points and connect them with curves. Bézier curves have many uses in real life, such as the pen tool, smooth and realistic animations, create complex and precise product designs, and create beautiful and unique fonts. The advantage of using Bézier curves is that they are easy to change and manipulate, so that it can produce precise designs that suit your needs.
 
-The more the control points there are, the more complex the equation of the Bézier curve becomes. The program is a solution to the mentioned problem where it is supposed to be a hugely more efficient way to form the Bézier curve. This program was written in Python language, implementing the Divide and Conquer Midpoint algorithm. It accepts input in the form of a `.txt` file or directly from the command line. After reading the input, the program will begin to process the Bézier curve forming as it will take some time until the curve is completely visualized.
+The more the control points there are, the more complex the equation of the Bézier curve becomes. The program is a solution to the mentioned problem where it is supposed to be a hugely more efficient way to form the Bézier curve. This program was written in Python language, implementing the Divide and Conquer midPoint algorithm. It accepts input in the form of a `.txt` file or directly from the command line. After reading the input, the program will begin to process the Bézier curve forming as it will take some time until the curve is completely visualized.
 
 
 ## Technologies Used
