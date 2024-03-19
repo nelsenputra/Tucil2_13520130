@@ -63,14 +63,18 @@ The whole program was written in Python.
 An input should consist these two components consecutively:
 - The number of points
 - N pairs of points, where the earliest point entered will be the starting point of the curve, as well as the latest one
+- The number of iterations
+- 4 real numbers which define the cartesian plane size range
 
 A `.txt` file used as an input should follow the pattern:
 ```
-Number of points
-Point_1 (format: x y)
-Point_2
+number_of_points (integer larger than 1)
+point_1 (real, format: x y)
+point_2
 ...
-Point_N
+point_N
+number_of_iterations (integer larger than 0)
+cartesian_plane_size_range (format: x1 x2 y1 y2, x1 < x2 and y1 < y2)
 ```
 
 ## Project Status
