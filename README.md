@@ -102,6 +102,9 @@ All the specifications were implemented.
 - [math](https://docs.python.org/3/library/math.html)
 - [dataclasses](https://docs.python.org/3/library/dataclasses.html)
 - [pyplot](https://www.w3schools.com/python/matplotlib_pyplot.asp)
+- [functools](https://docs.python.org/3/library/functools.html)
+- [time](https://docs.python.org/3/library/time.html)
+- [pyfiglet](https://pypi.org/project/pyfiglet/)
 
 
 ## Contact
